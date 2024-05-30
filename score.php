@@ -50,6 +50,7 @@ for ($i = 0; $i < count($jawaban); $i++) {
         <?php endfor; ?>
     </div>
     <div class=" card col-12 col-lg-6 py-4 m-auto">
+        <img src="assets/gif/over.gif" alt="over gif" width="200" class="mb-3 m-auto">
         <h3 class="text-center">poin yang anda dapat adalah</h3>
         <h1 class="fw-bolder text-center text-primary"><?= $score ?></h1>
         <div class="row mt-4">
